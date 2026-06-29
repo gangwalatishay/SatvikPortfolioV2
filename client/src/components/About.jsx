@@ -8,7 +8,7 @@ export default function About() {
       className="relative overflow-hidden bg-[#050505] py-44"
     >
       {/* Background Glow */}
-      <div className="absolute left-0 top-0 h-[500px] w-[500px] rounded-full bg-[#6B1026]/15 blur-[180px]" />
+      <div className="absolute left-0 top-0 h-[500px] w-[500px] rounded-full bg-[#00C853]/15 blur-[180px]" />
 
       <div className="absolute right-0 bottom-0 h-[400px] w-[400px] rounded-full bg-purple-700/10 blur-[180px]" />
 
@@ -19,7 +19,7 @@ export default function About() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <p className="uppercase tracking-[10px] text-[#8B1538] text-xs mb-8">
+          <p className="uppercase tracking-[10px] text-[#00E676] text-xs mb-8">
             About
           </p>
 
@@ -28,7 +28,7 @@ export default function About() {
             whileInView={{ width: "80px" }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="h-[2px] bg-[#8B1538] mb-12"
+            className="h-[2px] bg-[#00E676] mb-12"
           />
 
           <motion.h2
@@ -41,7 +41,7 @@ export default function About() {
             Crafting stories that
             <br />
 
-            <span className="text-[#8B1538]">
+            <span className="text-[#00E676]">
               people don't just watch—
             </span>
 

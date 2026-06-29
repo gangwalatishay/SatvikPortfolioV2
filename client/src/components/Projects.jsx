@@ -5,23 +5,23 @@ import Container from "./common/Container";
 const projects = [
   {
     title: "The Amazing Spiderman 2",
-    category: "Reel Edit",
-    year: "2025",
+   
+
     image:
       "/images/1.webp",
     youtube:"https://youtube.com/shorts/oE2v9nnziIQ?feature=share"
   },
   {
     title: "Youtube Shorts",
-    category: "Commercials - zoo-zoo",
-    year: "2025",
+  
+    
     image:
       "/images/2.png",
     youtube:"https://www.youtube.com/shorts/VhUi-2k3-O0"
   },  {
     title: "Youtube Shorts",
-    category: "Football Interview",
-    year: "2025",
+  
+
     image:
       "/images/3.png",
     youtube:"https://www.youtube.com/shorts/c9QEvsT-dKY"
@@ -29,25 +29,23 @@ const projects = [
 
   {
     title: "Corporate Film",
-    category: "Brand",
-    year: "2024",
+
     image:
       "/images/4.png",
     youtube:"https://www.youtube.com/shorts/ms0bjGEP66w"
   },
   {
-    title: "Corporate Film",
-    category: "Brand",
-    year: "2024",
+    title: "Motion Graphics",
+
+
     image:
       "/images/5.png",
     youtube:"https://www.youtube.com/watch?v=BfDkouC00Wg",
 
   },
     {
-    title: "Video Edit- BabyDoll",
-    category: "Reel Edit",
-    year: "2024",
+    title: "Graphics",
+
     image:
       "/images/6.png",
     youtube:"https://www.youtube.com/watch?v=v7K8JAG9nwM"
@@ -70,7 +68,7 @@ export default function Projects() {
           className="mb-20"
         >
 
-          <p className="uppercase tracking-[8px] text-[#8B1538] text-xs mb-5">
+          <p className="uppercase tracking-[8px] text-[#00E676] text-xs mb-5">
             Selected Work
           </p>
 
@@ -85,7 +83,10 @@ export default function Projects() {
 
           {projects.map((project, index) => (
 
-            <motion.article
+            <motion.a
+  href={project.youtube}
+  target="_blank"
+  rel="noopener noreferrer"
               key={project.title}
               initial={{ opacity: 0, y: 80 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +97,7 @@ export default function Projects() {
               }}
               className="group cursor-pointer"
             >
-
+                  
               <div className="relative overflow-hidden rounded-3xl">
 
                 <img
@@ -116,7 +117,7 @@ export default function Projects() {
 
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition duration-500" />
 
-                <div className="absolute top-6 left-6">
+                {/* <div className="absolute top-6 left-6">
 
                   <span className="px-4 py-2 rounded-full border border-[#8B1538]/40 bg-[#8B1538]/10 backdrop-blur-md text-[#d58aa1] uppercase tracking-[3px] text-[11px]">
 
@@ -124,7 +125,7 @@ export default function Projects() {
 
                   </span>
 
-                </div>
+                </div> */}
 
               </div>
 
@@ -155,8 +156,8 @@ export default function Projects() {
       flex
       items-center
       justify-center
-      group-hover:bg-[#8B1538]
-      group-hover:border-[#8B1538]
+      group-hover:bg-[#00E676]
+      group-hover:border-[#00E676]
       transition-all
       duration-300
     "
@@ -169,7 +170,7 @@ export default function Projects() {
 
 </div>
 
-</motion.article>
+</motion.a>
           ))}
 
         </div>

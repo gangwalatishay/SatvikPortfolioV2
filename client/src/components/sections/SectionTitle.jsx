@@ -13,13 +13,13 @@ export default function SectionTitle({
       viewport={{ once: true }}
       className="mb-16"
     >
-      <p className="uppercase tracking-[5px] text-[#8B1538] mb-3">
+      <p className="uppercase tracking-[5px] text-[#00E676] mb-3">
         {subtitle}
       </p>
 
       <h2 className="text-5xl md:text-6xl font-light">
         {title}{" "}
-        <span className="text-[#8B1538]">
+        <span className="text-[#00E676]">
           {highlight}
         </span>
       </h2>

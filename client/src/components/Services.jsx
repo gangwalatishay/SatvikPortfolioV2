@@ -55,24 +55,8 @@ const services = [
       "Multi-camera editing, storytelling, pacing and seamless transitions.",
     icon: HiOutlineCommandLine,
   },
-  {
-    title: "Gaming Content",
-    description:
-      "Montages, highlights, esports videos and creator-focused edits.",
-    icon: HiOutlinePlay,
-  },
-  {
-    title: "Music & Events",
-    description:
-      "Wedding films, concerts, music videos and live event productions.",
-    icon: HiOutlineMusicalNote,
-  },
-  {
-    title: "Business Content",
-    description:
-      "Corporate videos, presentations, testimonials and training content.",
-    icon: HiOutlineBuildingOffice2,
-  },
+
+
 ];
 
 export default function Services() {
@@ -88,7 +72,7 @@ export default function Services() {
           viewport={{ once: true }}
           className="mb-20"
         >
-          <p className="uppercase tracking-[10px] text-[#8B1538] text-xs mb-6">
+          <p className="uppercase tracking-[10px] text-[#00E676] text-xs mb-6">
             Services
           </p>
 
@@ -113,9 +97,9 @@ export default function Services() {
                   duration: 0.6,
                   delay: index * 0.08,
                 }}
-                className="group rounded-3xl border border-white/10 bg-white/[0.02] p-8 transition-all duration-500 hover:-translate-y-2 hover:border-[#8B1538]/50 hover:bg-[#0c0c0c]"
+                className="group rounded-3xl border border-white/10 bg-white/[0.02] p-8 transition-all duration-500 hover:-translate-y-2 hover:border-[#00E676]/50 hover:bg-[]"
               >
-                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#8B1538]/10 text-[#8B1538] transition-all duration-300 group-hover:bg-[#8B1538] group-hover:text-white">
+                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-[#00E676]/10 text-[#00E676] transition-all duration-300 group-hover:bg-[#00E676] group-hover:text-white">
                   <Icon size={28} />
                 </div>
 

@@ -40,7 +40,7 @@ export default function Navbar() {
               className="text-3xl font-semibold tracking-wider"
             >
               Satvik
-              <span className="text-[#8B1538]">.</span>
+              <span className="text-[#00E676]">.</span>
             </a>
 
             <nav className="hidden lg:flex gap-10">

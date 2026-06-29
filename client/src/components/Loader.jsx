@@ -13,7 +13,7 @@ export default function Loader() {
     <AnimatePresence>
       {loading && (
         <motion.div
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#090909]"
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#00E676]"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8 }}
@@ -25,7 +25,7 @@ export default function Loader() {
             className="text-5xl md:text-7xl tracking-[8px] font-light"
           >
             SATVIK
-            <span className="text-[#6B1026]">.</span>
+            <span className="text-[#00C853]">.</span>
           </motion.h1>
         </motion.div>
       )}

@@ -14,7 +14,7 @@ export default function Contact() {
       className="relative overflow-hidden bg-[#050505] py-40"
     >
       {/* Background Glow */}
-      <div className="absolute left-0 bottom-0 h-[450px] w-[450px] rounded-full bg-[#6B1026]/20 blur-[180px]" />
+      <div className="absolute left-0 bottom-0 h-[450px] w-[450px] rounded-full bg-[#00C853]/20 blur-[180px]" />
 
       <Container>
         <div className="grid lg:grid-cols-2 gap-20 items-start">
@@ -28,7 +28,7 @@ export default function Contact() {
             viewport={{ once: true }}
           >
 
-            <p className="uppercase tracking-[10px] text-[#8B1538] text-xs mb-8">
+            <p className="uppercase tracking-[10px] text-[#00E676] text-xs mb-8">
               Contact
             </p>
 
@@ -38,7 +38,7 @@ export default function Contact() {
               <br />
 
               something
-              <span className="text-[#8B1538]">
+              <span className="text-[#00E676]">
                 {" "}remarkable.
               </span>
 
@@ -56,7 +56,7 @@ export default function Contact() {
               <div className="flex items-center gap-5">
 
                 <HiOutlineEnvelope
-                  className="text-[#8B1538]"
+                  className="text-[#00E676]"
                   size={24}
                 />
 
@@ -69,7 +69,7 @@ export default function Contact() {
               <div className="flex items-center gap-5">
 
                 <HiOutlinePhone
-                  className="text-[#8B1538]"
+                  className="text-[#00E676]"
                   size={24}
                 />
 
@@ -82,7 +82,7 @@ export default function Contact() {
               <div className="flex items-center gap-5">
 
                 <HiOutlineMapPin
-                  className="text-[#8B1538]"
+                  className="text-[#00E676]"
                   size={24}
                 />
 
@@ -109,19 +109,19 @@ export default function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full bg-transparent border-b border-gray-700 py-5 outline-none text-white placeholder:text-gray-500 focus:border-[#8B1538] transition"
+              className="w-full bg-transparent border-b border-gray-700 py-5 outline-none text-white placeholder:text-gray-500 focus:border-[#00E676] transition"
             />
 
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full bg-transparent border-b border-gray-700 py-5 outline-none text-white placeholder:text-gray-500 focus:border-[#8B1538] transition"
+              className="w-full bg-transparent border-b border-gray-700 py-5 outline-none text-white placeholder:text-gray-500 focus:border-[#00E676] transition"
             />
 
             <textarea
               rows="5"
               placeholder="Tell me about your project..."
-              className="w-full bg-transparent border-b border-gray-700 py-5 outline-none text-white placeholder:text-gray-500 resize-none focus:border-[#8B1538] transition"
+              className="w-full bg-transparent border-b border-gray-700 py-5 outline-none text-white placeholder:text-gray-500 resize-none focus:border-[#00E676] transition"
             />
 
             <button
@@ -131,8 +131,8 @@ export default function Contact() {
               px-10
               py-4
               rounded-full
-              bg-[#6B1026]
-              hover:bg-[#8B1538]
+              bg-[#00C853]
+              hover:bg-[#00E676]
               transition
               text-white
               tracking-[3px]

@@ -23,7 +23,7 @@ export default function CustomCursor() {
         top: position.y - 12,
       }}
     >
-      <div className="w-6 h-6 rounded-full border border-[#8B1538]" />
+      <div className="w-6 h-6 rounded-full border border-[#00E676]" />
     </div>
   );
 }

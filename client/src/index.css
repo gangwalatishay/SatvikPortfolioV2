@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
@@ -58,4 +58,59 @@ section {
 ::selection {
   background: #6b1026;
   color: white;
+} */
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #090909;
+  color: #F5F5F5;
+  font-family: Inter, sans-serif;
+  cursor: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00E676;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+::selection {
+  background: #00E676;
+  color: #000000;
+}
+
+button,
+a {
+  transition: all 0.3s ease;
+}
+
+img {
+  user-select: none;
+}
+
+section {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  body {
+    cursor: auto;
+  }
 }

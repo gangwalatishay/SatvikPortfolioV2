@@ -12,7 +12,6 @@ return(
 
 <p className="mt-2 text-sm">
 
-Built with React • Node • MongoDB
 
 </p>
 
